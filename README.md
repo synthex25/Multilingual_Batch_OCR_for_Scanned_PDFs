@@ -123,8 +123,11 @@ output/
 ## 🧪 Example Use Cases
 
 -Digitization of scanned books and notes
+
 -Government or institutional document archiving
+
 -Making scanned PDFs searchable for analysis
+
 -Preprocessing documents for NLP or data extraction tasks
 
 ---
@@ -132,16 +135,22 @@ output/
 ## ⚠️ Important Notes
 
 -Use lang='tam+eng' only for mixed-language documents
+
 -For English-only PDFs, using lang='eng' improves speed and accuracy
+
 -OCR quality depends on scan clarity and resolution
 
 ---
 ## 🔮 Future Enhancements
 
 -Image preprocessing for improved OCR accuracy
+
 -Automatic language detection
+
 -OCR confidence scoring
+
 -Export extracted text to TXT or DOCX formats
+
 -GUI-based interface
 
 ---
