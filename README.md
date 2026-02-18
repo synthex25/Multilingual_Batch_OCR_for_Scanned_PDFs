@@ -82,10 +82,29 @@ pip install pytesseract pdf2image pypdf pillow
 ```
 **Step 2: Install system dependencies**
 Install Tesseract OCR with Tamil (tam) and English (eng) language data
+Tesseract OCR Download (official)
+```bash
+https://github.com/tesseract-ocr/tesser
+```
+🧩 For Windows installers directly
+Use the builds from the UB Mannheim repo (stable Windows releases):
+```bash
+https://github.com/UB-Mannheim/tesseract/wiki
+```
+You’ll find links there for:
+Windows 64-bit installer
+Tamil (tam) and English (eng) language support
 Install Poppler for Windows
+```bash
+https://github.com/oschwartz10612/poppler-windows/releases
+```
 
-**Step 3: Add input PDFs
+**Step 3: Add input PDFs**
 Place all scanned PDF files inside the input/ folder.
+input/
+ ├── file1.pdf
+ ├── file2.pdf
+
 
 **Step 4: Run OCR**
 ```bash
@@ -93,6 +112,38 @@ python tamil_ocr_task.py
 ```
 **Step 5: Get output**
 OCR-processed PDFs will be available in the output/ folder.
+output/
+ ├── file1.pdf
+ ├── file2.pdf
+---
+
+
+## 🧪 Example Use Cases
+
+-Digitization of scanned books and notes
+-Government or institutional document archiving
+-Making scanned PDFs searchable for analysis
+-Preprocessing documents for NLP or data extraction tasks
+
+---
+
+## ⚠️ Important Notes
+
+-Use lang='tam+eng' only for mixed-language documents
+-For English-only PDFs, using lang='eng' improves speed and accuracy
+-OCR quality depends on scan clarity and resolution
+
+---
+## 🔮 Future Enhancements
+
+-Image preprocessing for improved OCR accuracy
+-Automatic language detection
+-OCR confidence scoring
+-Export extracted text to TXT or DOCX formats
+-GUI-based interface
+
+---
+
 
 
 
