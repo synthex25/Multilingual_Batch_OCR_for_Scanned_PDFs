@@ -94,6 +94,7 @@ https://github.com/UB-Mannheim/tesseract/wiki
 You’ll find links there for:
 Windows 64-bit installer
 Tamil (tam) and English (eng) language support
+
 Install Poppler for Windows
 ```bash
 https://github.com/oschwartz10612/poppler-windows/releases
@@ -105,16 +106,17 @@ input/
  ├── file1.pdf
  ├── file2.pdf
 
-
 **Step 4: Run OCR**
 ```bash
 python tamil_ocr_task.py
 ```
 **Step 5: Get output**
 OCR-processed PDFs will be available in the output/ folder.
+
 output/
  ├── file1.pdf
  ├── file2.pdf
+ 
 ---
 
 
