@@ -79,18 +79,18 @@ tamil_ocr_task.py → Main OCR script
 **Step 1: Install Python libraries**
 ```bash
 pip install pytesseract pdf2image pypdf pillow
-
+```
 **Step 2: Install system dependencies**
 Install Tesseract OCR with Tamil (tam) and English (eng) language data
 Install Poppler for Windows
 
-**Step 3: Add input PDFs**
+**Step 3: Add input PDFs
 Place all scanned PDF files inside the input/ folder.
 
 **Step 4: Run OCR**
 ```bash
 python tamil_ocr_task.py
-
+```
 **Step 5: Get output**
 OCR-processed PDFs will be available in the output/ folder.
 
