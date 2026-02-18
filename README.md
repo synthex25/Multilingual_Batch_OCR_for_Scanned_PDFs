@@ -66,7 +66,9 @@ Searchable PDF Output
 
 ## 📂 Project Structure
 input/ → Place scanned PDF files here
+
 output/ → OCR-processed searchable PDFs appear here
+
 tamil_ocr_task.py → Main OCR script
 
 
@@ -74,21 +76,27 @@ tamil_ocr_task.py → Main OCR script
 
 ## ▶️ How to Run the Project
 
-# Step 1: Install required Python libraries
+Step 1: Install Python libraries
+```bash
 pip install pytesseract pdf2image pypdf pillow
 
-# Step 2: Install system dependencies (Windows)
-# - Install Tesseract OCR with Tamil (tam) and English (eng) language data
-# - Install Poppler for Windows
+Step 2: Install system dependencies
 
-# Step 3: Add input PDFs
-# Place all scanned PDF files inside the input/ folder
+Install Tesseract OCR with Tamil (tam) and English (eng) language data
 
-# Step 4: Run the OCR script
+Install Poppler for Windows
+
+Step 3: Add input PDFs
+
+Place all scanned PDF files inside the input/ folder.
+
+Step 4: Run OCR
 python tamil_ocr_task.py
+Step 5: Get output
 
-# Step 5: Get output
-# OCR-processed PDFs will be available in the output/ folder
+OCR-processed PDFs will be available in the output/ folder.
+
+
 
 
 
