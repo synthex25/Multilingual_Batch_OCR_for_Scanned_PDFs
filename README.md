@@ -65,6 +65,13 @@ Searchable PDF Output
 ---
 
 ## 📂 Project Structure
+D:\ocr\
+│
+├── input\     ← scanned PDFs here
+├── output\    ← OCR output PDFs
+│
+└── tamil_ocr_task.py
+
 input/ → Place scanned PDF files here
 
 output/ → OCR-processed searchable PDFs appear here
