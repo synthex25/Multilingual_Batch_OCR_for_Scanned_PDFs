@@ -33,11 +33,11 @@ better text accuracy.
 
 ## ⚙️ System Workflow
 Scanned PDF
-↓
+→
 Poppler (PDF → Image conversion)
-↓
+→
 Tesseract OCR (Tamil / English)
-↓
+→
 Searchable PDF Output
 
 
@@ -65,12 +65,7 @@ Searchable PDF Output
 ---
 
 ## 📂 Project Structure
-D:\ocr\
-│
-├── input\     ← scanned PDFs here
-├── output\    ← OCR output PDFs
-│
-└── tamil_ocr_task.py
+
 
 input/ → Place scanned PDF files here
 
