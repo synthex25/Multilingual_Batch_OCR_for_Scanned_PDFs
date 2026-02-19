@@ -1,3 +1,4 @@
+
 # Multilingual Batch OCR System for High Accuracy Digitization of Scanned PDFs
 
 A Python-based multilingual batch OCR system designed to convert scanned PDF
@@ -65,8 +66,6 @@ Searchable PDF Output
 ---
 
 ## 📂 Project Structure
-
-
 input/ → Place scanned PDF files here
 
 output/ → OCR-processed searchable PDFs appear here
@@ -105,8 +104,9 @@ https://github.com/oschwartz10612/poppler-windows/releases
 **Step 3: Add input PDFs**
 Place all scanned PDF files inside the input/ folder.
 input/
- ├── file1.pdf
- ├── file2.pdf
+
+  ├── file1.pdf
+  ├── file2.pdf
 
 **Step 4: Run OCR**
 ```bash
@@ -116,43 +116,35 @@ python tamil_ocr_task.py
 OCR-processed PDFs will be available in the output/ folder.
 
 output/
- ├── file1.pdf
- ├── file2.pdf
+
+  ├── file1.pdf
+  ├── file2.pdf
  
 ---
 
 
 ## 🧪 Example Use Cases
+- Digitization of scanned books and notes
+- Government or institutional document archiving
+- Making scanned PDFs searchable for analysis
+- Preprocessing documents for NLP or data extraction tasks
 
--Digitization of scanned books and notes
-
--Government or institutional document archiving
-
--Making scanned PDFs searchable for analysis
-
--Preprocessing documents for NLP or data extraction tasks
 
 ---
 
 ## ⚠️ Important Notes
 
--Use lang='tam+eng' only for mixed-language documents
-
--For English-only PDFs, using lang='eng' improves speed and accuracy
-
--OCR quality depends on scan clarity and resolution
+- Use lang='tam+eng' only for mixed-language documents
+- For English-only PDFs, using lang='eng' improves speed and accuracy
+- OCR quality depends on scan clarity and resolution
 
 ---
 ## 🔮 Future Enhancements
 
--Image preprocessing for improved OCR accuracy
-
--Automatic language detection
-
--OCR confidence scoring
-
--Export extracted text to TXT or DOCX formats
-
+- Image preprocessing for improved OCR accuracy
+- Automatic language detection
+- OCR confidence scoring
+- Export extracted text to TXT or DOCX formats
 -GUI-based interface
 
 ---
